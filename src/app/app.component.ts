@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'AngDirectives';
+  courses = [1,2];
+  viewMode = 'lists';
+  courseList = [
+      {name : 'course1'},
+      {name : 'course2'},
+      {name : 'course3'}
+  ];
 }
