@@ -1,0 +1,23 @@
+.header::after {
+
+    content : 'WOWWWWW';
+    color : ' blue'
+}
+
+.header:hover {
+        color: orange;
+}
+
+.three::before{
+    content : '1. ';
+}
+
+.first span:nth-child(2n){
+    color : green;
+
+}
+
+
+div  p{
+    font-weight:bold;
+    }
